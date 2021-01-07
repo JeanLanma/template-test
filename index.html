@@ -7,7 +7,7 @@
     <title>Document</title>
 
     <!-- Servicio de Google para cargar favicons de otros sitios -->
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=pornhub.com">
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=google.com">
 
     <!-- CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -20,6 +20,26 @@
 
 <body>
 
+    <div class="frase-container" id="frase-container">
+        <!-- Frase -->
+        <div class="frase-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="frase">Cada día sabemos más y entendemos menos</span>
+        </div>
+        <!-- Autor -->
+        <div class="frase-author">
+            <span id="author">Albert Einstein</span>
+        </div>
+        <!-- Buttons -->
+        <div class="contenedor-boton">
+            <button class="twitter-boton" id="twitter" title="Tweet this!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="nueva-frase">Nueva Frase</button>
+        </div>
+    </div>
+
+    <div class="loader" id="loader"></div>
     <!-- SCRIPTS -->
     <script src="script.js"></script>
 </body>
