@@ -16,7 +16,7 @@ async function getFrase() {
         let randomIndex = randomNumber();
         document.querySelector('#frase').textContent = data[randomIndex].text;
         document.querySelector('#author').textContent = data[randomIndex].author;
-        console.log(data[0])
+        // console.log(data[0])
         loader.hidden = true;
 
     } catch (err) {
